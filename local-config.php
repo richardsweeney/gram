@@ -11,4 +11,9 @@ define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 
-define( 'WPLANG', 'sv_SE' );
+define( 'JETPACK_DEV_DEBUG', true );
+
+define( 'WP_HOME', 'http://gram.dev' );
+define( 'WP_SITEURL', WP_HOME . '/wp' );
+
+define( 'WPLANG', 'en_GB' );
