@@ -1,40 +1,51 @@
 {
-	"name": "shipyard/wordpress-root",
-	"description": "Wordpress Root",
-	"authors": [
-		{
-			"name": "Richard Sweeney",
-			"email": "richards@theshipyard.se",
-			"homepage": "http://theshipyard.se"
-		}
-	],
-	"type": "project",
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://wpackagist.org"
-		}
-	],
-	"config": {
-		"vendor-dir": "content/vendor"
-	},
-	"require": {
-		"php": "^5.5.9 || ^7.0",
-		"johnpbloch/wordpress": "*",
-		"wp-papi/papi": "^3.0.5",
-		"ekandreas/bladerunner": "*",
-		"roots/wp-password-bcrypt": "^1.0",
-		"larapack/dd": "1.*"
-	},
-	"require-dev": {
-		"wpackagist-plugin/query-monitor": "*"
-	},
-	"extra": {
-		"installer-paths": {
-			"content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-			"content/plugins/{$name}/": ["type:wordpress-plugin"],
-			"content/themes/{$name}/": ["type:wordpress-theme"]
-		},
-		"wordpress-install-dir": "wp"
-	}
+  "name": "shipyard/wordpress-root",
+  "description": "Wordpress Root",
+  "authors": [
+    {
+      "name": "Richard Sweeney",
+      "email": "richards@theshipyard.se",
+      "homepage": "http://theshipyard.se"
+    }
+  ],
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/richardsweeney/gram-theme.git"
+    }
+  ],
+  "config": {
+    "vendor-dir": "content/vendor"
+  },
+  "require": {
+    "php": "^5.5.9 || ^7.0",
+    "johnpbloch/wordpress": "*",
+    "wp-papi/papi": "^3.0.5",
+    "ekandreas/bladerunner": "*",
+    "larapack/dd": "1.*",
+    "gram/gram-theme": "dev-develop",
+    "wpackagist-plugin/jetpack": "*"
+  },
+  "require-dev": {
+    "wpackagist-plugin/query-monitor": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "content/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    },
+    "wordpress-install-dir": "wp"
+  }
 }

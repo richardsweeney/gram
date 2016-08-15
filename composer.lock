@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2ba11e2d1b0167681f17d90ef1b6ce6c",
-    "content-hash": "bc95c4c91da03ca7041bd74e1aa4e94e",
+    "hash": "ee8a8f7e4610cc4c1606937439bb19fb",
+    "content-hash": "a209dad217170ffe2b6df3b165d49a27",
     "packages": [
         {
             "name": "composer/installers",
@@ -216,6 +216,36 @@
                 "wordpress"
             ],
             "time": "2016-05-10 09:36:46"
+        },
+        {
+            "name": "gram/gram-theme",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/richardsweeney/gram-theme.git",
+                "reference": "d38315eb191b55ddeb41987094f047edcf2d31eb"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Sweeney",
+                    "email": "richards@theshipyard.se",
+                    "homepage": "http://theshipyard.se"
+                }
+            ],
+            "description": "WordPress Theme for Gram Malmö",
+            "homepage": "http://theshipyard.se",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2016-07-03 17:55:06"
         },
         {
             "name": "illuminate/container",
@@ -709,63 +739,6 @@
             "time": "2012-12-21 11:40:51"
         },
         {
-            "name": "roots/wp-password-bcrypt",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/roots/wp-password-bcrypt.git",
-                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/roots/wp-password-bcrypt/zipball/5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
-                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "brain/monkey": "^1.3.1",
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "^4.8.23|^5.2.9",
-                "squizlabs/php_codesniffer": "^2.5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "wp-password-bcrypt.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Scott Walkinshaw",
-                    "email": "scott.walkinshaw@gmail.com",
-                    "homepage": "https://github.com/swalkinshaw"
-                },
-                {
-                    "name": "qwp6t",
-                    "homepage": "https://github.com/qwp6t"
-                },
-                {
-                    "name": "Jan Pingel",
-                    "email": "jpingel@bitpiston.com",
-                    "homepage": "http://janpingel.com"
-                }
-            ],
-            "description": "WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.",
-            "homepage": "https://roots.io/plugins/wp-password-bcrypt",
-            "keywords": [
-                "wordpress wp bcrypt password"
-            ],
-            "time": "2016-03-01 16:27:06"
-        },
-        {
             "name": "symfony/debug",
             "version": "v3.0.8",
             "source": {
@@ -1043,6 +1016,26 @@
                 "wordpress"
             ],
             "time": "2016-06-27 06:48:30"
+        },
+        {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "4.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/4.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.0.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
         }
     ],
     "packages-dev": [
@@ -1069,7 +1062,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "gram/gram-theme": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
