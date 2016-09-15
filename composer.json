@@ -16,7 +16,7 @@
     },
     {
       "type": "git",
-      "url": "git@dev.o-lab.se:gram/gram-theme.git"
+      "url": "https://github.com/richardsweeney/gram-theme.git"
     }
   ],
   "config": {

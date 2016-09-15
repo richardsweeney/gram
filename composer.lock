@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a75d3adfdb8f95f509ca80c643a3f77f",
-    "content-hash": "8fac258326b9d68ad7df12280900d26f",
+    "hash": "b2492de5b6dbe96b70cb8581ceeedf05",
+    "content-hash": "41384e490aa71380d67a557d7e294f95",
     "packages": [
         {
             "name": "composer/installers",
@@ -272,7 +272,7 @@
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "git@dev.o-lab.se:gram/gram-theme.git",
+                "url": "https://github.com/richardsweeney/gram-theme.git",
                 "reference": "68c2db03354de89a7495edb5b4ae86ffd6f86edd"
             },
             "require": {
