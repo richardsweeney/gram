@@ -2,3 +2,4 @@
 content/
 wp/
 .idea/
+local-config.php

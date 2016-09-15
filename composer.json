@@ -16,7 +16,7 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/richardsweeney/gram-theme.git"
+      "url": "git@dev.o-lab.se:gram/gram-theme.git"
     }
   ],
   "config": {
@@ -27,11 +27,11 @@
     "johnpbloch/wordpress": "*",
     "wp-papi/papi": "^3.0.5",
     "ekandreas/bladerunner": "*",
-    "larapack/dd": "1.*",
     "gram/gram-theme": "dev-develop",
     "wpackagist-plugin/jetpack": "*"
   },
   "require-dev": {
+    "larapack/dd": "1.*",
     "wpackagist-plugin/query-monitor": "*"
   },
   "extra": {
