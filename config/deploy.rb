@@ -7,8 +7,6 @@ set :ssh_options, { :forward_agent => true, }
 set :deploy_via, :remote_cache
 set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules"]
 
-set :linked_dirs, %w{content/uploads}
-
 set :composer_install_flags, '--no-dev --prefer-dist --no-scripts --optimize-autoloader'
 set :composer_roles, :all
 
