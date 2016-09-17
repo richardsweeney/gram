@@ -273,7 +273,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "68c2db03354de89a7495edb5b4ae86ffd6f86edd"
+                "reference": "88dfbe1cec233a342270731cf444bb2bf5c82af2"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -296,7 +296,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-09-15 17:46:36"
+            "time": "2016-09-17 16:32:19"
         },
         {
             "name": "illuminate/container",
