@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b2492de5b6dbe96b70cb8581ceeedf05",
-    "content-hash": "41384e490aa71380d67a557d7e294f95",
+    "hash": "0fe0a48dacdf40177d29a7e46b4434e0",
+    "content-hash": "6c5d1a48f07c03919ddc91174cbc5437",
     "packages": [
         {
             "name": "composer/installers",
@@ -273,7 +273,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "8b9f7dc64953258b5278d2274f31069a26d8b354"
+                "reference": "66dd4de02e3dbb9aab4bdb61878675a31ea34899"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -296,7 +296,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-09-21 08:50:59"
+            "time": "2016-10-01 14:42:03"
         },
         {
             "name": "illuminate/container",
@@ -871,17 +871,11 @@
         },
         {
             "name": "wp-papi/papi",
-            "version": "v3.1.13",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "01857f558ee7c5cfe0af735a1109dff0b07aaa4b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-papi/papi/zipball/01857f558ee7c5cfe0af735a1109dff0b07aaa4b",
-                "reference": "01857f558ee7c5cfe0af735a1109dff0b07aaa4b",
-                "shasum": ""
+                "reference": "6d0dcc7ac0e131662db67f3b29accb88ee0aec55"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -897,7 +891,14 @@
                     "dev-master": "3.1-dev"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "post-install-cmd": [
+                    "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi"
+                ],
+                "post-update-cmd": [
+                    "if [ -f vendor/bin/phpcs ]; then \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs; fi"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -918,7 +919,7 @@
                 "taxonomy",
                 "wordpress"
             ],
-            "time": "2016-09-12 09:04:44"
+            "time": "2016-10-01 14:41:20"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -1124,6 +1125,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "wp-papi/papi": 20,
         "gram/gram-theme": 20
     },
     "prefer-stable": false,
