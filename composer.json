@@ -17,10 +17,6 @@
     {
       "type": "git",
       "url": "https://github.com/richardsweeney/gram-theme.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/wp-papi/papi.git"
     }
   ],
   "config": {
@@ -29,7 +25,7 @@
   "require": {
     "php": "^5.5.9 || ^7.0",
     "johnpbloch/wordpress": "*",
-    "wp-papi/papi": "dev-master",
+    "wp-papi/papi": "*",
     "ekandreas/bladerunner": "*",
     "gram/gram-theme": "dev-develop",
     "wpackagist-plugin/jetpack": "*"
