@@ -226,21 +226,19 @@
         },
         {
             "name": "ekandreas/bladerunner",
-            "version": "1.5",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ekandreas/bladerunner.git",
-                "reference": "d6634317ce855e1579f9f152f89b5a643fb90e4f"
+                "reference": "c9aaea9c33cd39a1412c2fdc3ccf6191b2bde951"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ekandreas/bladerunner/zipball/d6634317ce855e1579f9f152f89b5a643fb90e4f",
-                "reference": "d6634317ce855e1579f9f152f89b5a643fb90e4f",
+                "url": "https://api.github.com/repos/ekandreas/bladerunner/zipball/c9aaea9c33cd39a1412c2fdc3ccf6191b2bde951",
+                "reference": "c9aaea9c33cd39a1412c2fdc3ccf6191b2bde951",
                 "shasum": ""
             },
             "require": {
-                "illuminate/container": "5.3.*",
-                "illuminate/events": "5.3.*",
                 "illuminate/view": "5.3.*",
                 "php": "^5.6 || ^7.0"
             },
@@ -265,7 +263,7 @@
                 "laravel",
                 "wordpress"
             ],
-            "time": "2016-08-29 09:15:42"
+            "time": "2016-10-13 10:19:37"
         },
         {
             "name": "gram/gram-theme",
@@ -273,7 +271,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "9f2ff8542ccd13d5b467b248cce0b4ce20131426"
+                "reference": "f6016b417a87f344c3e0e1e514d6837f89644295"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -296,7 +294,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-10-13 06:32:28"
+            "time": "2016-10-16 16:19:24"
         },
         {
             "name": "illuminate/container",
@@ -922,15 +920,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.3.1"
+                "reference": "tags/4.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
