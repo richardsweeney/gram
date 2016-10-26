@@ -27,8 +27,10 @@
     "johnpbloch/wordpress": "*",
     "wp-papi/papi": "*",
     "ekandreas/bladerunner": "*",
-    "gram/gram-theme": "dev-develop",
-    "wpackagist-plugin/jetpack": "*"
+    "gram/gram-theme": "dev-master",
+    "wpackagist-plugin/jetpack": "*",
+    "wpackagist-plugin/autodescription": "*",
+    "wpackagist-plugin/google-sitemap-generator": "*"
   },
   "require-dev": {
     "larapack/dd": "1.*",

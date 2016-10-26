@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f7a0e35e1be1baffbf803675b4565edf",
-    "content-hash": "6efdd793a2d2c637437b5a0c26c568b0",
+    "hash": "1c1f2395f3906c0868f4a2fd630e1079",
+    "content-hash": "e7e0303b1c5afd269b75e70932485133",
     "packages": [
         {
             "name": "composer/installers",
@@ -267,11 +267,11 @@
         },
         {
             "name": "gram/gram-theme",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "921a92f2f06b96b73b995ebe30550b9aec400979"
+                "reference": "3ee410cfc71002e091f1ce722f16686610eb9c91"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -294,7 +294,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-10-24 19:05:00"
+            "time": "2016-10-26 18:36:42"
         },
         {
             "name": "illuminate/container",
@@ -869,16 +869,16 @@
         },
         {
             "name": "wp-papi/papi",
-            "version": "v3.1.15",
+            "version": "v3.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "93c6df53e64bd9af84dd1a2c3f8950edea53cc59"
+                "reference": "9ae602423b4ba1a0f7fc7f8fe132477be1fc32e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-papi/papi/zipball/93c6df53e64bd9af84dd1a2c3f8950edea53cc59",
-                "reference": "93c6df53e64bd9af84dd1a2c3f8950edea53cc59",
+                "url": "https://api.github.com/repos/wp-papi/papi/zipball/9ae602423b4ba1a0f7fc7f8fe132477be1fc32e0",
+                "reference": "9ae602423b4ba1a0f7fc7f8fe132477be1fc32e0",
                 "shasum": ""
             },
             "require": {
@@ -916,7 +916,47 @@
                 "taxonomy",
                 "wordpress"
             ],
-            "time": "2016-10-06 08:56:44"
+            "time": "2016-10-26 12:08:59"
+        },
+        {
+            "name": "wpackagist-plugin/autodescription",
+            "version": "2.7.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autodescription/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
+            "name": "wpackagist-plugin/google-sitemap-generator",
+            "version": "4.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
+                "reference": "tags/4.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
