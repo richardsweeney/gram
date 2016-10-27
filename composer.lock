@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c1f2395f3906c0868f4a2fd630e1079",
-    "content-hash": "e7e0303b1c5afd269b75e70932485133",
+    "hash": "94c7b0c5810d044356d114a13059b972",
+    "content-hash": "320d5746394ddd133b071f4c499f3dee",
     "packages": [
         {
             "name": "composer/installers",
@@ -762,8 +762,41 @@
             "time": "2016-10-10 12:19:37"
         },
         {
+            "name": "shipyard/ship-nginx-fastcgi-cache-purge",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@dev.o-lab.se:shipyard/ship-nginx-fastcgi-cache-purge.git",
+                "reference": "594dbcb8ade309807ff84b451e8f226399b26e9a"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "ship-nginx-fastcgi-cache-purge"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Sweeney",
+                    "email": "richards@theshipyard.se",
+                    "homepage": "https://theshipyard.se"
+                }
+            ],
+            "description": "NGINX FastCGI cache purger",
+            "homepage": "http://theshipyard.se",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2016-10-27 18:42:41"
+        },
+        {
             "name": "symfony/debug",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -820,7 +853,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1077,16 +1110,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "70bfe927b86ba9999aeebd829715b0bb2cd39a10"
+                "reference": "4dc2f03b480c43f1665d3317d827a04ed6ffd11e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/70bfe927b86ba9999aeebd829715b0bb2cd39a10",
-                "reference": "70bfe927b86ba9999aeebd829715b0bb2cd39a10",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
+                "reference": "4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
                 "shasum": ""
             },
             "require": {
@@ -1136,7 +1169,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-09-29 14:13:09"
+            "time": "2016-10-18 15:46:07"
         },
         {
             "name": "wpackagist-plugin/query-monitor",
@@ -1162,7 +1195,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "gram/gram-theme": 20
+        "gram/gram-theme": 20,
+        "shipyard/ship-nginx-fastcgi-cache-purge": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

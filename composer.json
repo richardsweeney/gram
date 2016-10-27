@@ -17,6 +17,10 @@
     {
       "type": "git",
       "url": "https://github.com/richardsweeney/gram-theme.git"
+    },
+    {
+      "type": "git",
+      "url": "git@dev.o-lab.se:shipyard/ship-nginx-fastcgi-cache-purge.git"
     }
   ],
   "config": {
@@ -30,7 +34,8 @@
     "gram/gram-theme": "dev-master",
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/autodescription": "*",
-    "wpackagist-plugin/google-sitemap-generator": "*"
+    "wpackagist-plugin/google-sitemap-generator": "*",
+    "shipyard/ship-nginx-fastcgi-cache-purge": "dev-master"
   },
   "require-dev": {
     "larapack/dd": "1.*",
