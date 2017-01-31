@@ -30,11 +30,12 @@
     "php": "^5.5.9 || ^7.0",
     "johnpbloch/wordpress": "*",
     "wp-papi/papi": "*",
-    "ekandreas/bladerunner": "*",
+    "ekandreas/bladerunner": "1.5",
     "gram/gram-theme": "dev-master",
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
+    "wpackagist-plugin/woocommerce": "*",
     "shipyard/ship-nginx-fastcgi-cache-purge": "dev-master"
   },
   "require-dev": {
