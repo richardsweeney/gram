@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d4fda2f7a2e8195d01e86d22f9495fc",
+    "content-hash": "0df8f96de860a62dfcda31c81f0e066c",
     "packages": [
         {
             "name": "composer/installers",
@@ -272,7 +272,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "6a98f3f1f970ef2294c961bbc616124a307d20c3"
+                "reference": "a19e34008ba408e52b42da069b36c93a5e553ea5"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -295,7 +295,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-01-31 21:01:53"
+            "time": "2017-03-26 11:24:55"
         },
         {
             "name": "illuminate/container",
@@ -993,15 +993,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "2.8.2",
+            "version": "2.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/2.8.2"
+                "reference": "tags/2.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.2.8.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.2.9.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1050,26 +1050,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
-        },
-        {
-            "name": "wpackagist-plugin/woocommerce",
-            "version": "2.6.14",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.6.14"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.14.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woocommerce/"
         }
     ],
     "packages-dev": [

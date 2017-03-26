@@ -35,7 +35,6 @@
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
-    "wpackagist-plugin/woocommerce": "*",
     "shipyard/ship-nginx-fastcgi-cache-purge": "dev-master"
   },
   "require-dev": {
