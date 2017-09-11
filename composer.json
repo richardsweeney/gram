@@ -35,7 +35,8 @@
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
-    "shipyard/ship-nginx-fastcgi-cache-purge": "dev-master"
+    "shipyard/ship-nginx-fastcgi-cache-purge": "dev-master",
+    "wpackagist-plugin/backwpup": "^3.4"
   },
   "require-dev": {
     "larapack/dd": "1.*",
