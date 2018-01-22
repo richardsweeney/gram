@@ -285,7 +285,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "c01974c2cb14db3dc8673f13a2a2762033957244"
+                "reference": "d47dbec96cbfe13d5b94bda1a57b7f4981cf0746"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -308,7 +308,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-07T20:15:12+00:00"
+            "time": "2018-01-22T12:43:51+00:00"
         },
         {
             "name": "illuminate/container",
@@ -597,20 +597,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.1",
+            "version": "4.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4"
+                "reference": "34627d0b992bbe9ed909c73b27307297fb21f2a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/988875c1ec9f0474d1f77038b7a52f91125fc5f4",
-                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/34627d0b992bbe9ed909c73b27307297fb21f2a4",
+                "reference": "34627d0b992bbe9ed909c73b27307297fb21f2a4",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.1",
+                "johnpbloch/wordpress-core": "4.9.2",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -632,27 +632,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-11-29T21:57:18+00:00"
+            "time": "2018-01-16T23:12:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.1",
+            "version": "4.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5"
+                "reference": "59292fac30315323ce99e1a1d362015581e5d8e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/e47f6652557c3160ee432c2fca5594ac1a8698f5",
-                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/59292fac30315323ce99e1a1d362015581e5d8e6",
+                "reference": "59292fac30315323ce99e1a1d362015581e5d8e6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.1"
+                "wordpress/core-implementation": "4.9.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -672,7 +672,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-11-29T21:57:13+00:00"
+            "time": "2018-01-16T23:12:12+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1105,15 +1105,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "5.7",
+            "version": "5.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/5.7"
+                "reference": "tags/5.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.5.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.5.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1145,15 +1145,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-stripe",
-            "version": "4.0.1",
+            "version": "4.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
-                "reference": "tags/4.0.1"
+                "reference": "tags/4.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.0.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.0.3.zip",
                 "reference": null,
                 "shasum": null
             },
