@@ -24,11 +24,11 @@
     },
     {
       "type": "git",
-      "url": "git@bitbucket.org:richardsweeney/polylang-pro.git"
+      "url": "https://richardsweeney@bitbucket.org/richardsweeney/polylang-wp.git"
     },
     {
       "type": "git",
-      "url": "git@bitbucket.org:richardsweeney/polylang-wp.git"
+      "url": "https://richardsweeney@bitbucket.org/richardsweeney/polylang-wp.git"
     }
   ],
   "config": {
