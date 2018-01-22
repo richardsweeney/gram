@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "55be7d9608a7fc4f6dd72c06a7dedcf2",
+    "content-hash": "806dee79ba9d402fc48569d3046c62e6",
     "packages": [
         {
             "name": "composer/installers",
@@ -823,7 +823,7 @@
             "version": "2.2.3",
             "source": {
                 "type": "git",
-                "url": "https://richardsweeney@bitbucket.org/richardsweeney/polylang-pro.git",
+                "url": "git@bitbucket.org:richardsweeney/polylang-pro.git",
                 "reference": "8efc4a5cc85782925bb84689deb7ac6cc54e3aaa"
             },
             "require": {
@@ -843,7 +843,7 @@
             "version": "0.9",
             "source": {
                 "type": "git",
-                "url": "https://richardsweeney@bitbucket.org/richardsweeney/polylang-wp.git",
+                "url": "git@bitbucket.org:richardsweeney/polylang-wp.git",
                 "reference": "30a28d445ef82f46e51f5e14843ae0aab5b38150"
             },
             "require": {
