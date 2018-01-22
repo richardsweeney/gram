@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2882369ea5ddccefd47201ec285b7dc3",
+    "content-hash": "806dee79ba9d402fc48569d3046c62e6",
     "packages": [
         {
             "name": "composer/installers",
@@ -128,20 +128,20 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462"
+                "reference": "5527a48b7313d15261292c149e55e26eae771b0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/e11d84c6e018beedd929cff5220969a3c6d1d462",
-                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/5527a48b7313d15261292c149e55e26eae771b0a",
+                "reference": "5527a48b7313d15261292c149e55e26eae771b0a",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0"
+                "php": "^7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.2"
@@ -149,7 +149,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -191,7 +191,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2017-07-22T12:18:28+00:00"
+            "time": "2018-01-09T20:05:19+00:00"
         },
         {
             "name": "drewm/mailchimp-api",
@@ -308,7 +308,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-07 20:15:12"
+            "time": "2018-01-07T20:15:12+00:00"
         },
         {
             "name": "illuminate/container",
@@ -819,6 +819,46 @@
             "time": "2016-10-10T12:19:37+00:00"
         },
         {
+            "name": "richardsweeney/polylang-pro",
+            "version": "2.2.3",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:richardsweeney/polylang-pro.git",
+                "reference": "8efc4a5cc85782925bb84689deb7ac6cc54e3aaa"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Polylang Pro",
+            "keywords": [
+                "polylang",
+                "pro",
+                "wordpress"
+            ],
+            "time": "2018-01-14T16:46:11+00:00"
+        },
+        {
+            "name": "richardsweeney/polylang-wc",
+            "version": "0.9",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:richardsweeney/polylang-wp.git",
+                "reference": "30a28d445ef82f46e51f5e14843ae0aab5b38150"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Polylang for Woocommerce",
+            "keywords": [
+                "polylang",
+                "woocommerce",
+                "wordpress"
+            ],
+            "time": "2018-01-14T16:47:59+00:00"
+        },
+        {
             "name": "shipyard/ship-nginx-fastcgi-cache-purge",
             "version": "dev-master",
             "source": {
@@ -849,7 +889,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2016-10-27 18:42:41"
+            "time": "2016-10-27T18:42:41+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1082,6 +1122,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-gateway-stripe",
+            "version": "4.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
+                "reference": "tags/4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
         }
     ],
     "packages-dev": [
@@ -1276,7 +1356,7 @@
         "gram/gram-theme": 20,
         "shipyard/ship-nginx-fastcgi-cache-purge": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^5.5.9 || ^7.0"

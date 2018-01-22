@@ -21,11 +21,20 @@
     {
       "type": "git",
       "url": "https://github.com/richardsweeney/nginx-fastcgi-cache-purge.git"
+    },
+    {
+      "type": "git",
+      "url": "git@bitbucket.org:richardsweeney/polylang-pro.git"
+    },
+    {
+      "type": "git",
+      "url": "git@bitbucket.org:richardsweeney/polylang-wp.git"
     }
   ],
   "config": {
     "vendor-dir": "content/vendor"
   },
+  "prefer-stable": true,
   "require": {
     "php": "^5.5.9 || ^7.0",
     "johnpbloch/wordpress": "*",
@@ -36,7 +45,11 @@
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
     "shipyard/ship-nginx-fastcgi-cache-purge": "dev-master",
-    "wpackagist-plugin/backwpup": "^3.4"
+    "wpackagist-plugin/backwpup": "^3.4",
+    "richardsweeney/polylang-pro": "*",
+    "richardsweeney/polylang-wc": "*",
+    "wpackagist-plugin/woocommerce": "^3.2",
+    "wpackagist-plugin/woocommerce-gateway-stripe": "^4.0"
   },
   "require-dev": {
     "larapack/dd": "1.*",
