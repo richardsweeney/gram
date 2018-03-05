@@ -285,7 +285,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "a31d7c0633a5cb136656afffcb3f0db772b29f3d"
+                "reference": "ddd1227763df83853c5fcb028ce89336acb29b13"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -308,7 +308,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-02-17T15:14:16+00:00"
+            "time": "2018-03-05T11:49:39+00:00"
         },
         {
             "name": "illuminate/container",
@@ -1045,7 +1045,7 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "3.0.3",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
@@ -1053,8 +1053,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1512599902",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1519755105",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1125,15 +1125,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.3.1",
+            "version": "3.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.3.1"
+                "reference": "tags/3.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1145,15 +1145,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-gateway-stripe",
-            "version": "4.0.5",
+            "version": "4.0.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
-                "reference": "tags/4.0.5"
+                "reference": "tags/4.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.0.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.0.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1317,16 +1317,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "6d63cc74f3e2d4961411ccb77389a00332653104"
+                "reference": "c7d89044ed6ed3b7d8b558d509cca0666b947e58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6d63cc74f3e2d4961411ccb77389a00332653104",
-                "reference": "6d63cc74f3e2d4961411ccb77389a00332653104",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/c7d89044ed6ed3b7d8b558d509cca0666b947e58",
+                "reference": "c7d89044ed6ed3b7d8b558d509cca0666b947e58",
                 "shasum": ""
             },
             "require": {
@@ -1382,7 +1382,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-01-29T09:06:29+00:00"
+            "time": "2018-02-26T15:55:47+00:00"
         },
         {
             "name": "wpackagist-plugin/query-monitor",
