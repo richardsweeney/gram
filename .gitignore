@@ -1,5 +1,12 @@
 *.DS_Store
-content/
+!content/
+content/plugins
+content/themes
+content/upgrade
+content/uploads
+content/debug.log
+content/db.php
+content/vendor
 wp/
 .idea/
 local-config.php
