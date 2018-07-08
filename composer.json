@@ -40,7 +40,7 @@
     "johnpbloch/wordpress": "*",
     "wp-papi/papi": "*",
     "ekandreas/bladerunner": "1.5",
-    "gram/gram-theme": "dev-master",
+    "gram/gram-theme": "dev-feature/woo",
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",

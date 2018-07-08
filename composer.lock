@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "806dee79ba9d402fc48569d3046c62e6",
+    "content-hash": "6f731cbdfeb1d536bae61224e08924ce",
     "packages": [
         {
             "name": "composer/installers",
@@ -281,11 +281,11 @@
         },
         {
             "name": "gram/gram-theme",
-            "version": "dev-master",
+            "version": "dev-feature/woo",
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "d5d5756ce3428d0588ef4612102483e04c24ec08"
+                "reference": "71eebde90943451e5a5aee065506bbc66d8340e5"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -308,7 +308,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-05-25T06:24:07+00:00"
+            "time": "2018-07-08T17:07:40+00:00"
         },
         {
             "name": "illuminate/container",
