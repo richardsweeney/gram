@@ -3,6 +3,13 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
+
+RewriteCond %{HTTP_HOST} dev.grammalmo.se
+RewriteCond %{REQUEST_URI} ^/content/.*$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ https://grammalmo.se/$1 [QSA,L]
+
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
