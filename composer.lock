@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c43a8a3d4faecdd671d66ef800df027",
+    "content-hash": "e71b60778ba2df99a057ed186afbd1a4",
     "packages": [
         {
             "name": "composer/installers",
@@ -293,7 +293,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "d5d5756ce3428d0588ef4612102483e04c24ec08"
+                "reference": "a2cc5b05b24f9b764471dc4ef41a18b56957da74"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -316,7 +316,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-05-25T06:24:07+00:00"
+            "time": "2020-04-18T11:08:28+00:00"
         },
         {
             "name": "illuminate/container",
@@ -1171,26 +1171,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
-        },
-        {
-            "name": "wpackagist-plugin/mcpopup-popup-form-for-mailchimp",
-            "version": "1.0.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/mcpopup-popup-form-for-mailchimp/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mcpopup-popup-form-for-mailchimp.zip?timestamp=1585749266",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mcpopup-popup-form-for-mailchimp/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",

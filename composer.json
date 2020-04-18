@@ -51,8 +51,7 @@
     "wpackagist-plugin/woocommerce": "^3.2",
     "wpackagist-plugin/woocommerce-gateway-stripe": "^4.0",
     "wpackagist-plugin/cookie-law-info": "^1.6",
-    "wpackagist-plugin/classic-editor": "^1.5",
-    "wpackagist-plugin/mcpopup-popup-form-for-mailchimp": "^1.0"
+    "wpackagist-plugin/classic-editor": "^1.5"
   },
   "require-dev": {
     "larapack/dd": "1.*",
