@@ -293,7 +293,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/richardsweeney/gram-theme.git",
-                "reference": "a2cc5b05b24f9b764471dc4ef41a18b56957da74"
+                "reference": "33b8e402d659a54834eba7990c54b9890aaed849"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -316,7 +316,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2020-04-18T11:08:28+00:00"
+            "time": "2020-04-19T15:09:12+00:00"
         },
         {
             "name": "illuminate/container",
@@ -1062,9 +1062,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.0.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1082,9 +1080,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backwpup.3.7.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/backwpup.3.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1102,9 +1098,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1122,9 +1116,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookie-law-info.1.8.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/cookie-law-info.1.8.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1142,9 +1134,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.1.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1162,9 +1152,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.8.4.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/jetpack.8.4.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1182,9 +1170,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.9.3.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.9.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1202,9 +1188,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.3.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1394,9 +1378,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.5.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.5.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1416,5 +1398,6 @@
     "platform": {
         "php": "^5.5.9 || ^7.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
